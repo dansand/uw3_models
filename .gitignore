@@ -127,3 +127,40 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+
+default-*
+.devcontainer
+.vscode
+*.o
+cython_debug
+mesh.c
+poisson.c
+stokes.c
+analytic_sol.c
+maths.c
+swarm.c
+.env
+__pycache__
+*.so
+examples/.ipynb_checkpoints/*
+examples/PoissonEq/poisson
+*.h5
+*.xmf
+underworld3/petsc_types.c
+python/underworld3
+examples/c_examples/PoissonEq/poisson
+examples/c_examples/CartesianStokes/stokes
+build
+keep
+output*
+old
+underworld3.egg-info/*
+
+# Jupyter Book build relics
+
+Jupyterbook/_build
+Jupyterbook/static_slides
+/Lectures/static_slides/slideshows
+*slideshows*
